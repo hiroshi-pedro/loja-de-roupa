@@ -210,9 +210,6 @@ p, h1 {
 .div-master {
     width: 90vw;
     margin: 0 auto;
-    border: 2px solid red;
-    
-   
 }
 
 .grid-produtos {
@@ -225,7 +222,6 @@ p, h1 {
 
 .produto {
     background: #23232e4d;
-    border: 2px solid blue;
     border-radius: 4px;
 }
 
