@@ -246,7 +246,7 @@ footer {
 .cabecalho-produto {
   background-image: linear-gradient(to bottom, rgba(255, 0, 0, 0.37), rgba(0, 0, 255, 0.26) );
   height: 180px;
-  width: 384px;
+  width: 300px;
 }
 
 .descricao-produto {
