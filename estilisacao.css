@@ -129,7 +129,7 @@
 
 .slider-frame {
 	width: 98,8vw;
-    height: 20vw;
+    height: 40vw;
 	overflow: hidden;
 }
 
@@ -215,13 +215,14 @@ p, h1 {
 .grid-produtos {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-    gap: 30px;
+    gap: 10px;
+    row-gap: 75px;
     justify-content: center;
     justify-items: center; 
 }
 
 .produto {
-    background: #23232e4d;
+    background: #23232e00;
     border-radius: 4px;
 }
 
@@ -246,29 +247,22 @@ footer {
 
 .cabecalho-produto {
   background-image: linear-gradient(to bottom, rgba(255, 0, 0, 0.37), rgba(0, 0, 255, 0.26) );
-  height: 180px;
+  height: 350px;
   width: 300px;
-}
-
-.descricao-produto {
-  padding-top: 20px;
-  margin-left: 16px;
-  margin-right: 16px;
-  text-align: justify;
+  border-radius: 7px;
 }
 
 .botao-produto {  
   margin: 16px 38% 16px 38%;
   display: inline-block;
-  background-color: red;
-  padding: 10px;
-  border-radius: 10px;
+  padding: 5px;
 }
 
-.preco-produto {
-  font-weight: 600;
-  font-size: 20px;
-  padding-left: 10px;
-  padding-top: 10px;
-  color: green;
+.botao-produto > a{
+  color: rgb(9, 187, 9);
+}
+
+.botao-produto > a > p {
+  text-shadow: 4px 1px 4px rgba(0, 0, 0, 0.493);
+  font-size: 25px;
 }
