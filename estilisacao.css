@@ -246,12 +246,37 @@ footer {
 }
 
 .cabecalho-produto {
-  background-image: linear-gradient(to bottom, rgba(255, 0, 0, 0.37), rgba(0, 0, 255, 0.26) );
+  background-color: darkgray;
   height: 350px;
   width: 300px;
   border-radius: 7px;
 }
 
+/*img moletom*/
+
+#moletom-1 {
+  background-image: url(imagens/1.jpg);
+}
+
+#moletom-2 {
+ background-image: url(imagens/2.jpg);
+}
+
+#moletom-3 {
+  background-image: url(imagens/3.jpg);
+}
+
+#moletom-4 {
+  background-image: url(imagens/4.jpg);
+}
+
+#moletom-5 {
+  background-image: url(imagens/5.jpg);
+}
+
+#moletom-6 {
+  background-image: url(imagens/6.jpg);
+}
 .botao-produto {  
   margin: 16px 38% 16px 38%;
   display: inline-block;
